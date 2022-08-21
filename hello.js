@@ -1,13 +1,7 @@
-let hello = function () {
- console.log('Bonjour comment ça va ?')
+exports.hello = function () {
+  console.log('Bonjour comment ça va ?')
 }
 
-module.exports = hello
-
-let aurevoir = function () {
-  console.log('Aurevoir')
+exports.aurevoir = function () {
+  console.log('aurevoir')
 }
-
-/*module.exports = {
-  hello: hello
-}*/
